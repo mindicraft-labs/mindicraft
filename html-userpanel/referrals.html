@@ -180,128 +180,117 @@
                 </div><!-- .user-sidebar -->
                 <div class="user-content">
                     <div class="user-panel">
-                        <h2 class="user-panel-title">Account Information</h2>
-                        <div class="alert-box alert-primary">
-                            <div class="alert-txt"><em class="ti ti-alert"></em>Confirm your email address</div>
-                            <a href="#" class="btn btn-sm btn-primary">Resend Email</a>
-                        </div><!-- .alert-box -->
-                        <ul class="nav nav-tabs nav-tabs-line" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-bs-toggle="tab" href="#personal-data">Personal Data</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#wallet-address">Wallet Address</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#notification">Notification</a>
-                            </li>
-                        </ul><!-- .nav-tabs-line -->
-                        <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="personal-data">
-                                <form action="#">
-                                    <div class="input-item input-with-label">
-                                        <label for="full-name" class="input-item-label">Full Name</label>
-                                        <input class="input-bordered" type="text" id="full-name" name="full-name">
-                                    </div><!-- .input-item -->
-                                    <div class="input-item input-with-label">
-                                        <label for="sur-name" class="input-item-label">Surname</label>
-                                        <input class="input-bordered" type="text" id="sur-name" name="sur-name">
-                                    </div><!-- .input-item -->
-                                    <div class="input-item input-with-label">
-                                        <label for="email-address" class="input-item-label">Email Address</label>
-                                        <input class="input-bordered" type="text" id="email-address" name="email-address">
-                                    </div><!-- .input-item -->
-                                    <div class="input-item input-with-label">
-                                        <label for="mobile-number" class="input-item-label">Mobile Number</label>
-                                        <input class="input-bordered" type="text" id="mobile-number" name="mobile-number">
-                                    </div><!-- .input-item -->
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="input-item input-with-label">
-                                                <label for="date-of-birth" class="input-item-label">Date of Birth</label>
-                                                <input class="input-bordered date-picker" type="text" id="date-of-birth" name="date-of-birth">
-                                            </div><!-- .input-item -->
-                                        </div><!-- .col -->
-                                        <div class="col-md-6">
-                                            <div class="input-item input-with-label">
-                                                <label for="nationality" class="input-item-label">Nationality</label>
-                                                <select class="country-select" name="Nationality" id="Nationality">
-                                                    <option value="us">United State</option>
-                                                    <option value="uk">United KingDom</option>
-                                                    <option value="fr">France</option>
-                                                    <option value="ch">China</option>
-                                                    <option value="cr">Czech Republic</option>
-                                                    <option value="cb">Colombia</option>
-                                                </select>
-                                            </div><!-- .input-item -->
-                                        </div><!-- .col -->
-                                    </div><!-- .row -->
-                                    <div class="gaps-1x"></div><!-- 10px gap -->
-                                    <div class="d-sm-flex justify-content-between align-items-center">
-                                        <button class="btn btn-primary">Update</button>
-                                        <div class="gaps-2x d-sm-none"></div>
-                                        <span class="color-success"><em class="ti ti-check-box"></em> All Changes are saved</span>
+                        <h2 class="user-panel-title">Referral</h2>
+                        <h5>Invite your friends and family and recive free tokens</h5>
+                        <p><strong>Each member recives a unique referral link to share with friends and family and recive a bonus - 5% of the value of their contribution.</strong></p>
+                        <p>The referral link may be used during a token contribution, in the pre-sale and the ICO.</p>
+                        <p>Imagine giving your unique referral link to your crypto-friend and he or she contributes tokens using your link, the bonus will be sent to your account automatically. The strategy is simple: the more links you send to your collagues, family and friends - the more tokens you may earn!</p>
+                        <h6>My unique referral link</h6>
+                        <div class="refferal-info">
+                            <span class="refferal-copy-feedback copy-feedback"></span>
+                            <em class="fas fa-link"></em>
+                            <input type="text" class="refferal-address" value="https://demo.themenio.com/ico?ref=7d264f90653733592" disabled>
+                            <button class="refferal-copy copy-clipboard" data-clipboard-text="https://demo.themenio.com/ico?ref=7d264f90653733592"><em class="ti ti-files"></em></button>
+                        </div><!-- .refferal-info --> <!-- @updated on v1.0.1 -->
+                        <div class="gaps-2x"></div>
+                        <ul class="share-links">
+                            <li>Share with : </li>
+                            <li><a href="#"><em class="fas fa-at"></em></a></li>
+                            <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                            <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
+                            <li><a href="#"><em class="fab fa-google"></em></a></li>
+                            <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
+                            <li><a href="#"><em class="fab fa-whatsapp"></em></a></li>
+                            <li><a href="#"><em class="fab fa-viber"></em></a></li>
+                            <li><a href="#"><em class="fab fa-vk"></em></a></li>
+                        </ul><!-- .share-links -->
+                        <div class="gaps-1x"></div>
+                        <h4>Refferal Statistics</h4>
+                        <div class="refferal-statistics">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="refferal-statistics-item">
+                                        <h6>Visit Count</h6>
+                                        <span>420</span>
                                     </div>
-                                </form><!-- form -->
-                            </div><!-- .tab-pane -->
-                            <div class="tab-pane fade" id="wallet-address">
-                                <p>In order to receive your ICOX Tokens, please select your wallet addres and you have to put the address below input box. You will receive ICOX tokens to this address after the Token Sale end.</p>
-                                <form action="#">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="input-item input-with-label">
-                                                <label for="swalllet" class="input-item-label">Select Wallet </label>
-                                                <select class="input-bordered" name="swalllet" id="swalllet">
-                                                    <option value="eth">Ethereum</option>
-                                                    <option value="dac">DashCoin</option>
-                                                    <option value="bic">BitCoin</option>
-                                                </select>
-                                            </div><!-- .input-item -->
-                                        </div><!-- .col -->
-                                    </div><!-- .row -->
-                                    <div class="input-item input-with-label">
-                                        <label for="token-address" class="input-item-label">Your Address for tokens:</label>
-                                        <input class="input-bordered" type="text" id="token-address" name="token-address" value="0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae">
-                                        <span class="input-note">Note: Address should be ERC20-compliant.</span>
-                                    </div><!-- .input-item -->
-                                    <div class="gaps-2x"></div>
-                                    <div class="note note-plane note-danger">
-                                        <em class="fas fa-info-circle"></em>
-                                        <p>DO NOT USE your exchange wallet address such as Kraken, Bitfinex, Bithumb, Binance etc. You can use MetaMask, MayEtherWallet, Mist wallets etc. Do not use the address if you don’t have a private key of the your address. You WILL NOT receive ICOX Tokens and WILL LOSE YOUR FUNDS if you do.</p>
+                                </div><!-- .col -->
+                                <div class="col-md-4">
+                                    <div class="refferal-statistics-item">
+                                        <h6>Signin Count</h6>
+                                        <span>31</span>
                                     </div>
-                                    <div class="gaps-3x"></div>
-                                    <div class="gaps-1x"></div><!-- 10px gap -->
-                                    <div class="d-sm-flex justify-content-between align-items-center">
-                                        <button class="btn btn-primary">Update</button>
-                                        <div class="gaps-2x d-sm-none"></div>
-                                        <span class="color-success"><em class="ti ti-check-box"></em> Saved your wallet address</span>
+                                </div><!-- .col -->
+                                <div class="col-md-4">
+                                    <div class="refferal-statistics-item">
+                                        <h6>Total Bonus</h6>
+                                        <span>155</span>
                                     </div>
-                                </form><!-- form -->
-                            </div><!-- .tab-pane -->
-                            <div class="tab-pane fade" id="notification">
-                                <p>You can manage your all kind of notification from here.</p>
-                                <div class="gaps-1x"></div>
-                                <ul class="notification-list">
-                                    <li>
-                                        <span>Notify me by email about resumption of sales</span>
-                                        <div class="padl-2x"><input class="input-switch" type="checkbox" id="rsmpts"><label for="rsmpts"></label></div>
-                                    </li>
-                                    <li>
-                                        <span>Notify me by email for latest news</span>
-                                        <div class="padl-2x"><input class="input-switch" type="checkbox" checked id="lnews"><label for="lnews"></label></div>
-                                    </li>
-                                    <li>
-                                        <span>Alert me by email for unusual activity.</span>
-                                        <div class="padl-2x"><input class="input-switch" type="checkbox" checked id="unuact"><label for="unuact"></label></div>
-                                    </li>
-                                </ul>
-                                <div class="gaps-4x"></div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <span></span>
-                                    <span class="color-success"><em class="ti ti-check-box"></em> Update Notification Settings</span>
-                                </div>
-                            </div><!-- .tab-pane -->
-                        </div><!-- .tab-content -->
+                                </div><!-- .col -->
+                            </div><!-- .row -->
+                        </div><!-- .refferal-statistics -->
+                        <h4>Refferal Lists</h4>
+                        <table class="data-table refferal-table">
+                            <thead>
+                                <tr>
+                                    <th class="refferal-name"><span>Referee</span></th>
+                                    <th class="refferal-tokens"><span>Bought Token</span></th>
+                                    <th class="refferal-bonus"><span>Bonus</span></th>
+                                    <th class="refferal-date"><span>Date</span></th>
+                                    <th class="refferal-channel"><span>Channel</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="refferal-name">Cynthia Foster</td>
+                                    <td class="refferal-tokens">800</td>
+                                    <td class="refferal-bonus">8</td>
+                                    <td class="refferal-date">08-02-2022</td>
+                                    <td class="refferal-channel">Facebook</td>
+                                </tr>
+                                <tr>
+                                    <td class="refferal-name">Cynthia Foster</td>
+                                    <td class="refferal-tokens">800</td>
+                                    <td class="refferal-bonus">8</td>
+                                    <td class="refferal-date">08-02-2022</td>
+                                    <td class="refferal-channel">Facebook</td>
+                                </tr>
+                                <tr>
+                                    <td class="refferal-name">Cynthia Foster</td>
+                                    <td class="refferal-tokens">800</td>
+                                    <td class="refferal-bonus">8</td>
+                                    <td class="refferal-date">08-02-2022</td>
+                                    <td class="refferal-channel">Facebook</td>
+                                </tr>
+                                <tr>
+                                    <td class="refferal-name">Cynthia Foster</td>
+                                    <td class="refferal-tokens">800</td>
+                                    <td class="refferal-bonus">8</td>
+                                    <td class="refferal-date">08-02-2022</td>
+                                    <td class="refferal-channel">Facebook</td>
+                                </tr>
+                                <tr>
+                                    <td class="refferal-name">Cynthia Foster</td>
+                                    <td class="refferal-tokens">800</td>
+                                    <td class="refferal-bonus">8</td>
+                                    <td class="refferal-date">08-02-2022</td>
+                                    <td class="refferal-channel">Facebook</td>
+                                </tr>
+                                <tr>
+                                    <td class="refferal-name">Cynthia Foster</td>
+                                    <td class="refferal-tokens">800</td>
+                                    <td class="refferal-bonus">8</td>
+                                    <td class="refferal-date">08-02-2022</td>
+                                    <td class="refferal-channel">Facebook</td>
+                                </tr>
+                                <tr>
+                                    <td class="refferal-name">Cynthia Foster</td>
+                                    <td class="refferal-tokens">800</td>
+                                    <td class="refferal-bonus">8</td>
+                                    <td class="refferal-date">08-02-2022</td>
+                                    <td class="refferal-channel">Facebook</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div><!-- .user-panel -->
                 </div><!-- .user-content -->
             </div><!-- .d-flex -->
